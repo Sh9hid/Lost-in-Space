@@ -51,6 +51,45 @@ export default function ThreeD() {
   const TORUS = new THREE.Mesh(GEOMETRY,MATERIAL);
 
   SCENE.add(TORUS);
+  
+  //Texture loader to load an image
+  const PlanetText = new THREE.TextureLoader('SEA.jpg');
+  //Then we load a mesh 
+  const PlanetText = new.THREE.Mesh(
+    //Then we give our sphere a basic sphere geometry and a material
+    new THREE.SphereGeometry(3, 3, 3),
+    new THREE.MeshStandardMaterial ({map:PlanetText})
+    // map property on the material as the texture
+    scene.add(Planet);
+  
+  // That's cool, but we need our closest satellite, the moon 
+  //we'll add the texture as the moon jpg and add the map property
+  
+  const moonText = new THREE.TextureLoader().load('moonz.jpg')
+  //we also add a normal mapping texture that allows light to bounce off to create an illusion of craters and mountains
+  const normalText = new THREE.TextureLoader().load('normalmap.jpg')
+
+  const MOON = new THREE.Mesh(
+    new THREE.SphereGeometry(3 , 32, 32), // with a radius of three
+    new THREE.MeshStandardMaterial ( {
+      map : moonText,
+      normalMap: normalText
+      } )
+  );
+    scene.add(MOON);                                                                  
+   
+                                    
+     /*
+    const GEOMETRY = new THREE.SphereGeometry(10, 3, 16, 100);
+  const MATERIAL = new THREE.MeshBasicsMaterial ({
+    color: 0xf0f0f0,
+    wireframe: true, })
+  const Mars = new THREE.Mesh(GEOMETRY, MATERIAL);
+  SCENE.add(Mars);
+  
+    */
+    
+  
 
   // add light to the scene so that standard material becomes visible
   // PointLight is like a regular buld light source that lights up the entire room
@@ -145,6 +184,9 @@ export default function ThreeD() {
     TORUS.rotation.x += 0.01;
     TORUS.rotation.y += 0.005;
     TORUS.rotation.z += 0.01;
+    MOON.rotation.x += 0.01;
+    MOON.rotation.y += 0.005;
+    MOON.rotation.z += 0.001;
 
     CONTROLS.update(); // reflects changes (onMouseUp) in the UI as new start point for the next change (onMouseDown) 
 
