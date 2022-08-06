@@ -1,11 +1,8 @@
-# Three D Website with Three.js
+# Three D Website using React
+!https://m.media-amazon.com/images/I/416NAHJ2+ES._AC_SX679_.jpg
 
-### Testing out Three.js
 
-# Getting Started with Create React App
+##Credits
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#######Background space image Photo by [Francesco Ungaro](https://www.pexels.com/photo/starry-sky-998641/).
 
-Background space image Photo by [Francesco Ungaro](https://www.pexels.com/photo/starry-sky-998641/).
-
-* Inspired by tutorials from Fireship.io
