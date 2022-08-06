@@ -1,6 +1,6 @@
 # **Three D Website using React**
 
-> * *This is a Three - D 🤦‍♂️ portfolio website currently deployed on Gh pagees 🛳️. Feel free to contribute to this sub, starting here 🤙 💠  * *
+> * * This is a Three - D 🤦‍♂️ portfolio website currently deployed on Gh pagees 🛳️. Feel free to contribute to this sub, starting here 🤙 💠  * *
 
 
 ## **Credits** 
