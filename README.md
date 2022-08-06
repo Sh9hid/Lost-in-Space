@@ -8,6 +8,6 @@
 
 ## **Credits** 
 
-<sub> >Background space image Photo by [Francesco Ungaro](https://www.pexels.com/photo/starry-sky-998641/). </sub>
+<sub> > Background space image Photo by [Francesco Ungaro](https://www.pexels.com/photo/starry-sky-998641/). </sub>
 
 
