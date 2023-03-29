@@ -1,7 +1,7 @@
 
-# **ThreeJs Portfolio using React**
+# **Lost in Space based on ThreeJs and React**
 
->  This is an web-app based on Threejs currently deployed on vercel.
+>  This is an web-app deployed on vercel.
 
 
 ## **Credits** 
