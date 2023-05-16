@@ -1,8 +1,6 @@
 
-# **ThreeJs Portfolio using React**
-
->  This is a Three  D 🤦‍♂️ portfolio website currently deployed on Gh pagees 🛳️. Feel free to contribute to this sub, starting here 🤙 💠
-
+# **VR Space Web-app with Three Js**
+![Demo](https://raw.githubusercontent.com/Sh9hid/Lost-in-Space/master/demo-gif.gif)
 
 ## **Credits** 
 
