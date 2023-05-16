@@ -1,7 +1,7 @@
 
-# **Lost in Space based on ThreeJs and React**
+# **ThreeJs Portfolio using React**
 
->  A web-app deployed on vercel.
+>  This is a Three  D 🤦‍♂️ portfolio website currently deployed on Gh pagees 🛳️. Feel free to contribute to this sub, starting here 🤙 💠
 
 
 ## **Credits** 
