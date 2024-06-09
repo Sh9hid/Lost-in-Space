@@ -4,7 +4,7 @@
 
 ## **Credits** 
 
-_Background space image Photo by [Francesco Ungaro](https://www.pexels.com/photo/starry-sky-998641/)_
+Background space photo used in this project: [Francesco Ungaro](https://www.pexels.com/photo/starry-sky-998641/)_
 
 
 
